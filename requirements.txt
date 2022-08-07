@@ -1,5 +1,4 @@
-#-e ./fairseq/
-opencv-python
+-e ./fairseq/
 opencv-python-headless
 timm
 ftfy==6.0.3
@@ -12,3 +11,4 @@ datasets
 rouge_score
 googletrans==4.0.0rc1
 gTTS
+wget

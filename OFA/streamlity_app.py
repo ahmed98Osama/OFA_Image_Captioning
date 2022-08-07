@@ -16,6 +16,8 @@ from torchvision import transforms
 #############################################################################################
 @st.cache(suppress_st_warning=True , allow_output_mutation=True)
 def load_model():
+    
+    filename = wget.download('https://ofa-silicon.oss-us-west-1.aliyuncs.com/checkpoints/caption_large_best_clean.pt', out="checkpoints/caption.pt")
     # Register caption task
     tasks.register_task('caption',CaptionTask)
 

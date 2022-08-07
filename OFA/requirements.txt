@@ -1,5 +1,5 @@
 -e ./fairseq/
-opencv-python
+opencv-python-headless
 timm
 ftfy==6.0.3
 tensorboardX==2.4.1
@@ -9,3 +9,6 @@ pytorch_lightning
 einops
 datasets
 rouge_score
+googletrans==4.0.0rc1
+gTTS
+wget

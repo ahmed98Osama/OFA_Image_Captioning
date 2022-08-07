@@ -1,0 +1,7 @@
+2022-08-03 20:20:57,730 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2022-08-03 20:20:57,778 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2022-08-03 20:20:57,781 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "component_manager/disable_update_check", VALUE: "true"]
+2022-08-03 20:20:57,787 INFO     ___FILE_ONLY___ Updated property [component_manager/disable_update_check].
+
+2022-08-03 20:20:57,788 INFO     root            Display format: "default"
+2022-08-03 20:20:57,789 DEBUG    root            SDK update checks are disabled.
